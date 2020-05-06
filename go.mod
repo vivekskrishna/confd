@@ -10,8 +10,8 @@ require (
 	github.com/onsi/gomega v1.7.0
 	github.com/philhofer/fwd v1.0.0 // indirect
 	github.com/pquerna/ffjson v0.0.0-20190813045741-dac163c6c0a9 // indirect
-	github.com/projectcalico/libcalico-go v1.7.2-0.20200427180741-f197f7370140
-	github.com/projectcalico/typha v0.0.0-20200428231740-c01bb349f7f0
+	github.com/projectcalico/libcalico-go v1.7.2-0.20200506032348-dda4a7964ffa
+	github.com/projectcalico/typha v0.7.3-0.20200506132521-a93898218626
 	github.com/sirupsen/logrus v1.4.2
 	github.com/tinylib/msgp v1.1.0 // indirect
 	github.com/ugorji/go v0.0.0-20171019201919-bdcc60b419d1 // indirect
