@@ -400,10 +400,10 @@ func (rg *routeGenerator) advertiseThisService(svc *v1.Service, ep *v1.Endpoints
 	}
 
 	// we only need to advertise local services, since we advertise the entire cluster IP range.
-	if svc.Spec.ExternalTrafficPolicy != v1.ServiceExternalTrafficPolicyTypeLocal {
-		logc.Debugf("Skipping service with non-local external traffic policy '%s'", svc.Spec.ExternalTrafficPolicy)
-		return false
-	}
+	//if svc.Spec.ExternalTrafficPolicy != v1.ServiceExternalTrafficPolicyTypeLocal {
+	//	logc.Debugf("Skipping service with non-local external traffic policy '%s'", svc.Spec.ExternalTrafficPolicy)
+	//	return false
+	//}
 
 	isIPv6 := func(ip string) bool { return strings.Contains(ip, ":") }
 
